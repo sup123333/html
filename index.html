@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Device Preview Panel -->
+    <div class="device-panel">
+        <button class="device-btn active" data-device="desktop" title="Desktop">
+            <i class="fas fa-desktop"></i>
+        </button>
+        <button class="device-btn" data-device="laptop" title="Laptop">
+            <i class="fas fa-laptop"></i>
+        </button>
+        <button class="device-btn" data-device="tablet" title="Tablet">
+            <i class="fas fa-tablet-alt"></i>
+        </button>
+        <button class="device-btn" data-device="mobile" title="Mobile">
+            <i class="fas fa-mobile-alt"></i>
+        </button>
+    </div>
+
+    <!-- Website Content -->
+    <div class="website" id="website">
+        <header>
+            <div class="logo">MySite</div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h1>Welcome to Our Website</h1>
+            <p>We create simple and effective solutions for your business needs.</p>
+            <button class="cta-btn">Get Started</button>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <i class="fas fa-rocket"></i>
+                <h3>Fast Delivery</h3>
+                <p>We deliver projects quickly without compromising quality.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Secure & Safe</h3>
+                <p>Your data and projects are protected with top security.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>Our team is always ready to help you with any issues.</p>
+            </div>
+        </section>
+
+        <section class="services">
+            <h2>About Our Services</h2>
+            <p>We provide simple and effective solutions tailored to your specific needs.</p>
+            <div class="service-list">
+                <div class="service-item">
+                    <h4>Web Design</h4>
+                    <p>Clean and modern website designs.</p>
+                </div>
+                <div class="service-item">
+                    <h4>Development</h4>
+                    <p>Robust and scalable applications.</p>
+                </div>
+                <div class="service-item">
+                    <h4>Support</h4>
+                    <p>Ongoing maintenance and updates.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2023 MySite. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Contact</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
